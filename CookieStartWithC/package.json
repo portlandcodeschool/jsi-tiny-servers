@@ -10,7 +10,7 @@
     "debug": "~2.1.1",
     "express": "~4.11.1",
     "jade": "~1.9.1",
-    "morgan": "~1.5.1",
+    "morgan": "~1.5.1"
   },
   "description": "A tiny demo of server-side cookie manipulation",
   "main": "app.js",
@@ -19,5 +19,5 @@
     "url": "https://github.com/portlandcodeschool/jsi-tiny-servers.git"
   },
   "author": "Dan Bauer",
-  "license": "MIT",
+  "license": "MIT"
 }
