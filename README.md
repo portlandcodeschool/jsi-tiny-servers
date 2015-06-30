@@ -1,2 +1,2 @@
 # jsi-tiny-servers
-A suite of tiny node servers which demnostrate individual features
+A suite of tiny node servers which demonstrate individual features

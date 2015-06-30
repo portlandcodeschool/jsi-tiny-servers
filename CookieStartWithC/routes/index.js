@@ -8,7 +8,7 @@ router.get('/', function(req,res,next) {
 	} else {
 		res.cookie('flavor','banana');
 	}
-	res.render
+	res.render('index',{title:'Cookies!'});
 });
 
 module.exports = router;
