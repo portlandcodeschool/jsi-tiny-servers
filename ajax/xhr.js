@@ -2,12 +2,12 @@ var xhr = new XMLHttpRequest();
 // readyState == 0
 console.log(Date.now(), xhr.readyState);
 
+// Set callback to handle state change:
 xhr.onreadystatechange = function(evt) {
-	//console.log(Date.now(), this.readyState)
-	console.log(evt.timeStamp, this.readyState)
+	console.log(evt.timeStamp, this.readyState);
+	if (this.readyState === 4)
+		console.log(this.response)	
 }
-xhr.onreadystatechange = whenFinished;
-
 
 var url = '/api';
 xhr.open('GET',url);
@@ -21,9 +21,3 @@ xhr.send(null);//null --> no body/data to send
 
 // response complete...
 // readyState == 4
-
-
-function whenFinished(evt) {
-	if (this.readyState === 4)
-		console.log(this.response)
-}

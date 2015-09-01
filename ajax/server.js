@@ -29,3 +29,5 @@ app.get('/api', function(req,res) {
 
 
 app.listen(5000);
+console.log("Ready to serve file "+index);
+console.log("Direct browser to 'localhost:5000'")
