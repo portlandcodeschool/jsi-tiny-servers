@@ -1,0 +1,19 @@
+{
+  "name": "Ajax-Demo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server-slow.js"
+  },
+  "dependencies": {
+    "express": "~4.11.1",
+  },
+  "description": "A tiny demo of ajax requests",
+  "main": "server-slow.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/portlandcodeschool/jsi-tiny-servers.git"
+  },
+  "author": "Dan Bauer",
+  "license": "MIT"
+}
